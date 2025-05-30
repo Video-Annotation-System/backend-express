@@ -15,7 +15,7 @@ let annotations = [];
 
 // GET /
 app.get('/', (req, res) => {
-    res.send("Hello world");
+    res.send("Server running successfully");
 });
 
 // GET /api/annotations
